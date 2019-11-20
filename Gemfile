@@ -11,6 +11,7 @@ gem 'require_all'
 gem 'shotgun'
 gem 'json'
 gem 'pry'
+# gem 'thin'
 
 group :test do
   gem 'rspec'
@@ -19,3 +20,10 @@ group :test do
   gem 'rack-test'
   gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
 end
+
+# group :development do
+#   gem 'shotgun'
+#   gem 'pry'
+#   gem 'tux'
+#   gem 'sqlite3', '~> 1.3.6'
+# end
